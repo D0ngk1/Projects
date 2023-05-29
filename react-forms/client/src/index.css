@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+   url("./fonts/Roboto-Regular.ttf") format("truetype");
+ }
+@font-face {
+  font-family: "RobotoBold";
+  src: local("Roboto"),
+   url("./fonts/Roboto-Bold.ttf") format("truetype");
+}
+body {
+  margin: 0;
+  background-color: hsl(235, 18%, 26%);
+
+}
+body p,label,input,button{
+  font-family: Roboto;
+}
+label{
+  font-family: RobotoBold;
+}
+body h1{
+  font-family: RobotoBold;
+  font-size: 45px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
