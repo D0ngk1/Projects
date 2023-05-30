@@ -29,9 +29,17 @@ p {
 }
 .dismiss-btn{
     height: 40px;
+    cursor: pointer;
     border-radius: 5px;
     background-color: hsl(234, 29%, 20%);
     color: white;
+
+}
+.dismiss-btn:hover{
+    background-color:hsl(4, 100%, 67%);
+    border: solid 2px hsl(4, 100%, 67%);
+    box-shadow:
+    0 0 10px px hsl(4, 100%, 67%);
 }
 @media only screen and (max-width:770px){
     .success-container{
@@ -49,7 +57,8 @@ p {
     }
     .dismiss-btn{
         margin-top: 50%;
-
+        cursor: pointer;
     }
+
 
 }
