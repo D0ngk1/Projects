@@ -39,7 +39,7 @@ p {
     background-color:hsl(4, 100%, 67%);
     border: solid 2px hsl(4, 100%, 67%);
     box-shadow:
-    0 0 10px px hsl(4, 100%, 67%);
+    0 0 5px 2px hsl(4, 100%, 67%);
 }
 @media only screen and (max-width:770px){
     .success-container{
